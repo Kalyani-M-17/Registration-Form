@@ -1,0 +1,208 @@
+.main {
+    background-color: green;
+    height: 780px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    background-image: url(bg.jfif);
+    margin: 30px;
+    border-radius: 20px;
+    /* opacity: 0.5; */
+    color: white;
+    display: grid;
+    gap: 50px;
+    padding: 40px;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    margin-left: 20px;
+    /* align-items: center; */
+}
+
+#code {
+    width: 60px;
+    height: 60px;
+}
+
+.logo h3 {
+    /* font-size: xx-large; */
+    font-weight: 800;
+    color: white;
+    /* background-color: rgb(236, 138, 18); */
+    /* height: 25px; */
+}
+
+#span {
+    font-size: smaller;
+    font-weight: 500;
+    color: rgb(232, 232, 232);
+}
+
+.content{
+    margin-left: 30px;
+}
+
+.content h1{
+    font-size: 60px;
+}
+
+#btn {
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    /* background-color: red; */
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+#playbutton {
+    width: 50px;
+}
+
+.nav {
+    margin-top: 80px;
+}
+
+.nav ul li {
+    list-style: none;
+    display: flex;
+    gap: 80px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 800;
+}
+
+.right {
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.top {
+    font-size: 20px ;
+    margin-top: 40px;
+
+}
+
+.login {
+    display: flex;
+    gap: 40px;
+}
+
+.login button {
+    border: 1.5px solid white;
+    background-color: rgb(52, 60, 68);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 50px;
+    cursor: pointer;
+}
+
+#google {
+    width: 20px;
+    height: 20px;
+}
+
+#apple {
+    width: 20px;
+    height: 20px;
+}
+
+.or {
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 15px;
+    margin-left: 6px;
+}
+
+.line {
+    width: 230px;
+    height: 1.5px;
+    /* border: 2px solid rebeccapurple ; */
+    background-color: white;
+}
+
+#or {
+    font-size: 20px;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+.Registrationform {
+    display: grid;
+    gap: 20px;
+}
+
+.input {
+    display: grid;
+    width: 520px;
+    /* height: 60px; */
+    gap: 7px;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+.form input {
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.form input:hover {
+    border: 2px solid black;
+}
+
+#tick {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#span2 {
+    text-decoration: underline;
+    color: orange;
+    /* color: rgb(52, 60, 68); */
+    cursor: pointer;
+}
+
+#regbtn{
+    height: 45px;
+    width: 81%;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, rgb(218, 25, 8) ,orange );
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 25px;
+    /* font-weight: 800; */
+    /* margin-bottom: px; */
+    cursor: pointer;
+}
+
+.mem{
+    margin-left: 150px;
+}
